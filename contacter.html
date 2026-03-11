@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Caffe PraRoz</title>
+    <link rel="stylesheet" href="assets/css/style.css">
+    <style>
+        header{
+            margin-top: -120px;
+        }
+        h1{
+            font-size: 40px;
+            background-image: url(assets/images/button.png);
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-position: center;
+            text-align: center;
+            margin-top: 120px;
+            margin-bottom: 20px;
+        }
+        input , textarea{
+            color: rgb(26, 51, 82);
+            font-size: 20px;
+            width: 80%;
+            margin-top: 20px;
+            height: 40px;
+            padding: 3px 8px;
+            border: 1px solid rgba(244, 165, 96, 0.631);
+        }
+        textarea{
+            height: 100px;
+        }
+        p{
+            text-align: center;
+            font-size: 21px;
+            margin-bottom: 3px;
+            padding: 0px 7px;
+
+        }
+        .btn{
+            color: rgb(244, 165, 96);
+            font-weight: bold;
+            border-radius: 12px;
+            transition: all .75s;
+            background-color: white;
+            margin-bottom: 40px;
+            width: 81.3%;
+        }
+        .btn:hover{
+            background-color: rgba(244, 165, 96, 0.631);
+            color: rgb(255, 255, 255);            
+        }
+        h1 span{
+            color: orange;
+        }
+        form{
+            display: flex;
+            flex-direction: column;
+            flex-wrap: wrap;
+            align-items: center;
+        }
+        @media screen and (max-width:1000px){
+            .btn{
+                width: 82%;
+            }
+
+        }
+        @media screen and (max-width:930px){
+            .btn{
+                width: 82.3%;
+            }
+        }
+        @media screen and (max-width:700px){
+            .btn{
+                width: 82.7%;
+            }
+            input , textarea{
+                        font-size: 17px;
+            }
+
+        }
+        @media screen and (max-width:600px){
+            .btn{
+                width: 83%;
+            }
+        }
+        @media screen and (max-width:500px){
+            .btn{
+                width: 83.5%;
+            }
+            h1{
+                font-size: 34px;
+            }
+        }
+        @media screen and (max-width:400px){
+            
+            .btn{
+                 width: 84%;
+            }
+            input , textarea{
+                font-size: 14px;
+            }
+            h1{
+                font-size: 31px;
+            }
+        }
+        @media screen and (max-width:300px){
+            
+            .btn{
+                width: 85.7%;
+            }
+            h1{
+                font-size: 28px;
+            }
+        }
+        @media screen and (max-width:200px){
+            
+            .btn{
+                width: 89%;
+            }
+        }
+    </style>
+</head>
+<body>
+    <!-- header -->
+    <header>
+                <!-- logo -->
+                <img src="assets/images/logo.png" alt="" class="logo">
+                <!-- menu -->
+                <nav>
+                    <input type="checkbox"  id="chek">
+                    <label for="chek" class="chek-btn">
+                        <img src="assets/images/menu.png" alt="">
+                    </label>
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="offre.html">Offers</a></li>
+                        <li><a href="contacter.html" class="active">Contact</a></li>
+                    </ul>
+                </nav>
+    </header>
+
+    <!-- top -->
+    <h1>Contacter moi<span>.</span></h1>
+    <p>Envie d'en savoir plus ?</p>
+    <p>Pour passer commande, veuillez suivre les étapes simples ci-dessous :</p>
+
+    <!-- les formilair -->
+    <form action="" method="post">
+        <input type="text" required placeholder="NOME et PRENOM">
+        <input type="email" name="email" id="email" placeholder="EMAIL" required>
+        <input type="tel" required placeholder="TELEPHONE">
+        <textarea name="" id="" placeholder="Comment"></textarea>
+        <input type="submit" value="Envoyer" class="btn">
+    </form>
+</body>
+</html>
