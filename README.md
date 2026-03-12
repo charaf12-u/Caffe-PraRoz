@@ -58,15 +58,6 @@ Get in touch with us for orders or inquiries.
 
 ---
 
-## 🇲🇦 Darija Quick Info (khlasa)
-
-Had l-mashrou' "Caffe PraRoz" huwa wahed l-website dyal l-9ahwa dialna, fiha:
-- **Index**: l-page l-kbira li fiha ga3 l-m3loumat.
-- **Offers**: l-humizat w l-bonus li kankedmo.
-- **Contact**: fin t9der tsift lina msg wla t-shouf l-fin jayin f l-map.
-
----
-
 ## 🤝 Contact
 
 Developed with ❤️ for a professional coffee business.
